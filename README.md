@@ -1,4 +1,4 @@
-# ReadAPI-Groovy-Scripts
+# ReadyAPI-Groovy-Scripts
 Repository containing Examples of scripts.
 
 ### Why use Groovy Scripts in ReadyAPI ?
@@ -11,8 +11,9 @@ For example, you can start virtual services before starting your test and stop t
 Scripts can be executed across sevral places and stages of ReadyAPI tests. This repository catalogues scripts based on where script can be executed:
 - Groovy Scripts as Test Steps
 - Setup Scripts and TearDown Scripts
-- Scripted Events (based on Event Listners)
+- Scripted Events (based on [Event Listners](https://support.smartbear.com/readyapi/docs/en/test-apis-with-readyapi/handling-events.html))
 - Scripted Data Source Step
+- Scripted Assertion
 
 #### Why such separation ?
 It is dictated by objects available to specific area where we use scripts. 
